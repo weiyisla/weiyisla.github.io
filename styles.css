@@ -1,0 +1,65 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Navigation bar styling */
+nav {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centers the navigation */
+}
+
+nav ul li {
+  display: inline; /* Ensures the items are inline */
+  margin-right: 20px; /* Adds spacing between items */
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: #575757;
+  border-radius: 4px;
+}
+
+/* Header Section */
+header {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 50px 0;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+/* Section padding */
+section {
+  padding: 20px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
