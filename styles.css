@@ -1,15 +1,17 @@
 /* General body styling */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Georgia', serif; /* Alternatively, try 'Roboto', sans-serif */
+  font-size: 18px; /* Increased font size */
   margin: 0;
   padding: 0;
-  line-height: 1.6;
+  line-height: 1.75; /* Slightly more spacing for readability */
+  color: #333; /* A darker color for better contrast */
 }
 
 /* Navigation bar styling */
 nav {
   background-color: #333;
-  padding: 10px 0;
+  padding: 15px 0; /* Slightly larger padding */
 }
 
 nav ul {
@@ -26,6 +28,7 @@ nav ul li {
 }
 
 nav ul li a {
+  font-size: 18px; /* Increase font size for navigation items */
   color: white;
   text-decoration: none;
   padding: 10px 20px;
@@ -44,13 +47,18 @@ header {
   padding: 50px 0;
 }
 
-h1, h2 {
-  margin: 0;
+h1 {
+  font-size: 36px; /* Increased heading size */
+}
+
+h2 {
+  font-size: 28px; /* Adjusted subheading size */
 }
 
 /* Section padding */
 section {
-  padding: 20px;
+  padding: 30px; /* Increased padding for sections */
+  font-size: 18px; /* Increased body font size */
 }
 
 /* Footer styling */
@@ -58,7 +66,7 @@ footer {
   background-color: #333;
   color: white;
   text-align: center;
-  padding: 10px 0;
+  padding: 15px 0; /* Slightly increased padding */
   position: fixed;
   width: 100%;
   bottom: 0;
